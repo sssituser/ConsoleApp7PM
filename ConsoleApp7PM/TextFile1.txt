@@ -1,8 +1,13 @@
 ﻿Input Methods : In order to read the data from console we use Input metods
 
 1.Console.ReadLine() : It is used Read a string and returns string.
-2.Console.Read()     : It is used to Read the ASCII Values of the keys.
-	
 
 
-3.Console.ReadKey()
+
+
+2.Console.Read()     : It is used to Read a key and returns the ASCII Values of the keys.
+A - >  65  B - >  666
+3.Console.ReadKey(): It will chek the user is pressing the key or not
+
+Opertors :
+Conditional :

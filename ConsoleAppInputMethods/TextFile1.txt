@@ -1,0 +1,116 @@
+﻿Console.ReadLine() : It is used to read the character and returns same charcters in the form string
+
+
+Console.Read() : It is used to read a Character and returns ASCII Value of the given key.
+
+input : A    ouput  : 65
+input : ABC  output : 65
+input : abbbb output : 97
+
+Console.Readkey() : This method waits for the key to press. That can be show developent only.
+
+Operators :
+	Arithmetic Opeators   +  Add - Sub  *--Mul /(quo)--division %-- mode(Rem)
+	Relational Operators  >	  <    >=   <=   ==   !=
+
+	Assignment Operators  =   +=  -=   *=   /=  %=
+
+
+	Logical Operators   &&--> logical And   ||----> logical Or    ! ---> logical not
+
+	P	Q	P && Q
+	T	T	  T
+	T	F	  F
+	F	T	  F
+	F	F	  F
+
+	IF ALL THE CONDITIONS ARE TRUE THE RESULT IS TRUE.
+	OTHERWISE FALSE
+	P	Q	P||Q
+	T	T	T
+	T	F	T
+	F	T	T
+	F	F	F
+
+	IF ALL THE CONDITIONS ARE FALSE THE RESULT IS FALSE OTHER WISE TRUE
+	P		!P
+	TRUE	FALSE
+	FALSE	TRUE
+
+
+
+
+	Increment / Decrement Operators   ++ Increment Operator   -- Decrement Operator
+	Special Operator  ,
+
+
+	Bitwise Operators  &--bitwise and | bitwise or  ^ bitwise cap
+	
+	p	q	p&q		p	q  p|q		p	q	p^q				
+	0	0	0		0	0	0	    0	0	0
+	0	1	0		0	1	1		0	1	1
+	1	0	0		1	0	1		1	0	1
+	1	1	1		1	1	1		1	1	0
+	
+	p = 2	0000 0010
+	q = 3	0000 0011
+	--------------------
+	 p&q      0000 0010 => 2
+	---------------------
+
+	p = 2	0000 0010
+	q = 3	0000 0011
+	--------------------
+	 p|q    0000 0011 => 3
+	---------------------
+	p = 2	0000 0010
+	q = 3	0000 0011
+	--------------------
+	 p^q    0000 0001 => 1
+	---------------------
+
+	<< left shift     2<<3		
+	>> right shift    2>>3
+	
+	
+	5+2 => 7
+	5>2 => 
+
+						
+
+						1. Unary Operators : If any opeator uses only one Operand is
+						   unary Operrator.
+						   ++a
+						   ++10
+						   -8
+
+						2. Binary Operators
+							if any operator uses two opearands is called binary operator
+							10 + 20
+							3 - 2 
+							4 > 5
+							x > y
+							p < q
+
+						3. Ternary Operator
+							if any operator uses three operands , that operator is called
+							Trenary Operator
+
+							bool ? stmt1   : stmt2
+
+							bool-True   stmt-1 Can be Executed
+							bool-False  stmt-2 Can be Executed
+
+							Conditional Statments or Decesion Making stmts 
+							1. Simple if
+							2. if - else
+							3. Nested if
+							4. Else-if ladder
+							5. switch,break,
+							6. goto
+							Loops or Iterative Statement
+							1. While  continue
+							2. do-while
+							3. for 
+							4. foreach    // Logical Thinking 3-4 days
+							Arrays:
