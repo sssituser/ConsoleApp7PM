@@ -76,3 +76,15 @@
 
 	}
 
+	goto is jumping stmt:
+	It is statement which is used to move the compiler during the execution as per our requirement.
+	syx :
+			
+		goto Label:
+			stmts
+
+
+		Label:
+			stmts
+
+
