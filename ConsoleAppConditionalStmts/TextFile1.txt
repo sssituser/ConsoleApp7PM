@@ -1,0 +1,78 @@
+﻿1. Simple if
+
+			if(Con or booleanvalue)
+			{-----------------------> Open Curly Brace
+				stmts;
+			} ----------------------> Close Curly Brace
+
+			Open CurlBrace and Close Curl brace Can be called block.
+
+			case 1 : Compiler checks the condition or boolean value if is true
+					 Compiler executes  if block stmts.
+
+		    case 2: Compiler checks the condition or boolean value if the con false
+			compiler will not execute the if block stmts. Compiler executes outside
+			of the block stmts.
+
+			In a program we can write any number of Simple if.
+
+
+			if(con-1){
+
+				if(con-2){
+					stmts-1;
+				}else{
+					stmts-2;
+				}
+
+			}else{
+				
+				stmts-3;
+			}
+
+	con-1->True con->2->True	Stmts-1 Can be executed
+	con-1->True con2->->False	Stmts-2 Can be executed
+	con-1 False					Stmts-3 Can be executed
+
+
+	4. Else If ladder
+
+	if(con-1){
+		smts-1;
+	}else if(con-2){
+		stmts-2
+	}else if(con-3){
+		smts.-3..
+	}
+	...
+	...
+	...
+	else{
+		stmts-n;
+	}
+
+
+	Swith is the selection statement
+
+	In condition stmts compiler will decide which statement to be executed based on the condition. 
+	where as swich is selection statemetn in which end user can choose the stmt to execute.
+
+	swich(const){
+		case cont1:
+		   stm1-1;
+		   break;
+
+		case Cont2:
+			stmts-2;
+			break;
+			....
+			...
+
+			...
+
+		default:
+			defaultstmts;
+			break;
+
+	}
+
