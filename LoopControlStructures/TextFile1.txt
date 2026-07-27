@@ -128,8 +128,147 @@
 					 Find the Average of the factors
 
 					4.Write program to check given number is prime or not ?
+
+
 					5.Write a progrm to check given number Perfect or not
 				
+					while(con){
+
+					}
+
+					do{
+						stmts;
+					}while(con);
+
+					1. In above syntax compiler executes do block stmts and checks the condition
+					2. con-False compiler will not exeucte do-block stmt , In do-while even if the condition flase
+					  compiler executes the stmts once.
+					3.case compiler executes do-block stmts and cheks the condition if the condtion is compiler
+					executes do-block stmtst until the condition is false.
+
+
+
+					Syntax:
+
+					        (1)        (2)   (4)
+					for(initialization;con;inc/dec){
+						stmts;(3)
+					}
+					1. Initilizes the variables
+					2. condition :F
+					3. compiler will not execute anything
+
+				 ==============================
+				 compiler executes - 1(initialization)
+				 compiler checks the condiong -(2)
+				 condtion(2) -> True
+				 compiler exeuctes(3) stmts
+				 and then -(4) inc/dec
+				 con-(2)-T
+				     (3)
+					 (4)
+					 (2)
+					 (3)
+					 (4)
+					 ==================================================
+					 num = 5
+					1
+					1	2
+					1	2	3
+					1	2	3	4
+					1	2	3	4	5
+
+
+					1
+					2	2
+					3	3	3
+					4	4	4	4
+					5	5	5	5	5
+
+					1
+					2	3
+					4	5	6
+					7	8	9	10
+					11	12	13	14	15
+
+					x
+					x	x
+					x	x	x
+					x	x	x	x
+					x	x	x	x	x
+
+					============================================
+					1
+					1	2
+					1	2	3
+					1	2	3	4
+					1	2	3	4	5
+					1	2	3	4
+					1	2	3	
+					1	2	
+					1	
+
+
+					1
+					2	2
+					3	3	3
+					4	4	4	4
+					5	5	5	5	5
+					4	4	4	4
+					3	3	3
+					2	2
+					1
+
+
+					1
+					2	3
+					4	5	6
+					7	8	9	10
+					11	12	13	14	15
+					16	17	18	19
+					20	21	21
+					23	24
+					25
+
+					A
+					B	C
+					D	E	F
+					G	H	I	J
+					K	L	M	N	O
+					P	Q	R	S
+					T	U	V
+					W	X
+					Y
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
