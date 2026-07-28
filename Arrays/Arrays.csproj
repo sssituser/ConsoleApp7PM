@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3711A3CB-FF52-48AC-B2B1-7FEF6A0F967F}</ProjectGuid>
+    <ProjectGuid>{C8CA935F-1531-4C4C-B397-0F123C9DBC34}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>LoopControlStructures</RootNamespace>
-    <AssemblyName>LoopControlStructures</AssemblyName>
+    <RootNamespace>Arrays</RootNamespace>
+    <AssemblyName>Arrays</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LoopControlStructures.forloop.Class2</StartupObject>
+    <StartupObject>Arrays.Class3</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,31 +49,14 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Class2.cs" />
     <Compile Include="Class3.cs" />
-    <Compile Include="Class4.cs" />
-    <Compile Include="Class5.cs" />
-    <Compile Include="Class6.cs" />
-    <Compile Include="Class7.cs" />
-    <Compile Include="Class8.cs" />
-    <Compile Include="forloop\Class1.cs" />
-    <Compile Include="forloop\Class2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WhilePrograms\Armstrong.cs" />
-    <Compile Include="WhilePrograms\CountDigits.cs" />
-    <Compile Include="WhilePrograms\DigitsAverage.cs" />
-    <Compile Include="WhilePrograms\DigitsSum.cs" />
-    <Compile Include="WhilePrograms\MaxDigit.cs" />
-    <Compile Include="WhilePrograms\MinDigit.cs" />
-    <Compile Include="WhilePrograms\PalindromeNumber.cs" />
-    <Compile Include="WhilePrograms\ReverseNum.cs" />
-    <Compile Include="WhilePrograms\SeparateDigits.cs" />
-    <Compile Include="WhilePrograms\StrongNumber.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="TextFile1.txt" />
+    <Content Include="Arraysnotes.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

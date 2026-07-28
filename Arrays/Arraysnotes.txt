@@ -1,0 +1,59 @@
+﻿Array : It is the collection homogenious elements.
+				or
+	    It is a variable which can hold no of elements in a sequential order
+		of same datatype.
+		Array can be represented by using square braces [ ].
+		Arrays Index starts from 0 onwards.
+		Only +ve indexing can be used to read the elements from the given array.
+
+		Arrays are of 3 types.
+
+		1. Single Dimensional Array.
+			An array with only one dimension is called Single Dimensional Array.
+			Syx: Delaration of the Array(Instatiation of the Array)
+				DataType[ ] refvariable = new DataType[size];
+				
+				Example :
+						int[ ] array = new int[3];
+						array[0]=>0
+						array[1]=>0
+						array[2]=>0
+
+						string[] names = new string[5];
+						names[0]
+						names[1]
+						names[2]
+						names[3]
+						names[4]
+			Initialization:
+					
+					int[] arry = new int[3]{45,67,89};
+								or
+					int[] array = new int[]{45,67,89}
+								or
+					int[] array = {45,67,89}
+
+					array[0]=>45 array[1]=>67  array[2] => 89
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		2. Reactangular Array(Multi Dimensional Array)
+		3. Jagged Array.
+
+
+		

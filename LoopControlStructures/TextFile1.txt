@@ -203,6 +203,8 @@
 					1	2	3
 					1	2	3	4
 					1	2	3	4	5
+
+
 					1	2	3	4
 					1	2	3	
 					1	2	
@@ -239,6 +241,14 @@
 					T	U	V
 					W	X
 					Y
+					foreach(DataType var1 in var2)
+					{
+						stmts;
+					}
+
+					In the above syntax var1 can hold one element.
+					var2 can hold multiple elements, based on these
+					elements we the loop will be repeated.
 
 
 
