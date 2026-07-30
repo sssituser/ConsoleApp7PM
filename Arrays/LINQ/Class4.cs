@@ -17,12 +17,13 @@ namespace Arrays.LINQ
             {
                 Console.WriteLine(item);
             }
-            Console.WriteLine("");
-            var dict = array.GroupBy(x => x).ToDictionary(p => p);
+            Console.WriteLine("=================");
+            var dict = array.GroupBy(x => x).ToDictionary(p => p.Key,p=>p.Count());
             foreach (var item in dict)
             {
-                Console.WriteLine($"{item}=>{item.Value}");
+                Console.WriteLine($"{item.Key}\t{item.Value}");
             }
+
         }
     }
 }

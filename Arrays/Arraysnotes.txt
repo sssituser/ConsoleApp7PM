@@ -1,4 +1,4 @@
-﻿Array : It is the collection homogenious elements.
+﻿Array : It is the collection homogenious elements. or It is the sequential arraingement of the elements.
 				or
 	    It is a variable which can hold no of elements in a sequential order
 		of same datatype.
@@ -35,6 +35,27 @@
 
 					array[0]=>45 array[1]=>67  array[2] => 89
 
+		2. Rectangular Array or Multidimesional Array.
+
+				An array with rows and cols can be called Rect.Array or Multi.Array
+
+				syx:
+					DataType[ , ] refv = new DataType[rows,cols];
+
+					Example :
+						int[ , ] array = new int[2,3];
+
+			int[,] array = new int[2,3]{{12,34,56},{67,89,90}};
+						 or
+			int[,] array = new int[,]{{12,34,56},{67,89,90}};
+						 or
+			int[,] array = 
+			{
+				{12,34,56},
+				{67,89,90}
+			};
+
+						
 
 
 
