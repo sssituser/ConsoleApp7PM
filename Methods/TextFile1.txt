@@ -1,0 +1,35 @@
+﻿Method (function) : It is self contained block of stmts which can be used to
+perform a particular task.
+
+Methods are of two types :
+	Methods Involved In Steps :
+			i .Defining the Methods.
+			ii.Consuming the Method or Call Method.
+	Observation :
+		Every Method Can Take Parameters(inputs):
+			int, string, char, void , int[] , float[],boolean
+			class...
+		Every Method can Give The Results (Return Type):
+			string ,int, float, void , int[] , strig[], char,
+			class , boolean.
+
+
+
+
+1. Predefined Methods :
+	The methods which are built in the lib called predefined methods.
+	Console.WriteLine()
+	Console.ReadLine()
+	Console.Write()
+	String : 
+	1.Anything written in double quotes can be called as string.
+	2.In order work with the strings we need use predefined methdos of a
+	string class.
+	3.String is a class.
+
+
+2. User defined Methods
+	i. Define the metod
+	ii. Consume the method
+
+

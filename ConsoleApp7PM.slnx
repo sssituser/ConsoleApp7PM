@@ -5,4 +5,5 @@
   <Project Path="ConsoleAppConditionalStmts/ConsoleAppConditionalStmts.csproj" Id="6d8166e0-604a-4403-8ae3-eed94806508f" />
   <Project Path="ConsoleAppInputMethods/ConsoleAppInputMethods.csproj" Id="0a0af598-8295-4a4e-8031-ceaa4b99929d" />
   <Project Path="LoopControlStructures/LoopControlStructures.csproj" Id="3711a3cb-ff52-48ac-b2b1-7fef6a0f967f" />
+  <Project Path="Methods/Methods.csproj" Id="b31b78fc-03e4-4e06-ba03-04dde6da7d75" />
 </Solution>
