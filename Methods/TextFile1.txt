@@ -12,7 +12,20 @@ Methods are of two types :
 		Every Method can Give The Results (Return Type):
 			string ,int, float, void , int[] , strig[], char,
 			class , boolean.
+============================================================================
+Note : In a class we can have both static methods and non static methods(Instance Methods)
+	   i. Static Methods can be Accessed using className.
+				or
+		  If methods called with Class Name then the method is static method
 
+	   ii. Non Static Methods(Instance Methods) These methods can be accessed using
+	   object only.
+
+	   if any method accessed with object then the method non static method or
+	   if any method is not able to access using class then the method may be a non static method
+
+
+================================================================================
 
 
 
@@ -22,14 +35,77 @@ Methods are of two types :
 	Console.ReadLine()
 	Console.Write()
 	String : 
-	1.Anything written in double quotes can be called as string.
+	1.Anything written in double quotes can be called as a string.
 	2.In order work with the strings we need use predefined methdos of a
-	string class.
+	  string class.
 	3.String is a class.
 
 
-2. User defined Methods
+2. User defined Methods:
+	The Methods which are defined by the developer can be called as User defined Methods.
+
+	In User defined method , Users can define the methods as per their requirement and 
+	Users can call those methods.
+
+	The Advantages with methods 
+		i.   Reduces Code Complexcity.
+		ii.  Reusability.
+		iii. The code Testable easily.
+
+			i.   Readable => Naming convention , Meaningfull names.
+			ii . Changeble => small changes in the code , If should do updated.
+			iii. Testable(Modular Programming)
+
 	i. Define the metod
 	ii. Consume the method
+	=======================================================================================
+	sytanx :
+			Accessmodifiers ReturnType MethodName(Parameters)
+			{
+				return ;
+			}
+
+			AM : public / public static
+			     internal / internal static
+				====================================
+				 private / private static
+				 protected / Protected static
+				===================================
+			Return Type : The result of a method.
+			void, int , int[ ], string , string [ ], float , double , char , boolean
+
+			Parameters : The Inputs which we pass to method are called Parameters,
+			These are also called variables.
+			int, char, float ,string  , int[] , string[ ] , boolean , etc...
+
+			Method Name : Method Must Be MeaningFul.
+						  Method Name Can Decide Parameters and Return Type.
+
+						  String.IsNullOrEmpty()
+
+						  Parameters is string.
+						  Retrun Type is Boolean
+
+						  ReverseOfNum
+						  parameters : number(integer)
+						  Return Type : number(integer)
+			================================================================
+			1. Write a program to add two numbers ?
+
+			AM : public static
+			MN : Sum/Add/Addition
+			PM : Two integers
+			RT : Integer
+
+
+			public static int Sum(int num1,int num2)
+			{
+				
+				return num1+num2;
+			}
+
+
+
+
 
 

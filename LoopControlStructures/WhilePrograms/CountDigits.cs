@@ -17,7 +17,7 @@ namespace LoopControlStructures.WhilePrograms
                 int digit = num % 10; // digit = 234%10 digit = 4 digit = 23%10 digit = 3 digit = 2%10 digit = 2
                 count++; // count = 1 count = 2 count = 3
                 num = num / 10;// num = 234/10 num = 23/10 num = 2/10 num = 0
-
+               
             } while (num > 0);
 
             Console.WriteLine($"Digits Count is :{count} ");
